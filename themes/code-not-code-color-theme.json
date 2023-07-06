@@ -1,0 +1,33 @@
+{
+	"name": "code-not-code",
+	"colors": {
+		// "editor.background": "#e5ff1f",
+		"editor.background": "#ffffff",
+		"editor.foreground": "#6c6c6c",
+		"editor.selectionBackground": "#faffe2"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"comment.documentation",
+				"comment.block.documentation",
+				"comment.block.preprocessor"
+			],
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#8070f8"
+			}
+		},
+	]
+}

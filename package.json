@@ -1,0 +1,21 @@
+{
+  "name": "code-not-code",
+  "displayName": "code-not-code",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "code-not-code",
+        "uiTheme": "vs",
+        "path": "./themes/code-not-code-color-theme.json"
+      }
+    ]
+  }
+}
