@@ -1,10 +1,9 @@
 {
 	"name": "code-not-code",
 	"colors": {
-		// "editor.background": "#e5ff1f",
 		"editor.background": "#ffffff",
-		"editor.foreground": "#6c6c6c",
-		"editor.selectionBackground": "#faffe2"
+		"editor.foreground": "#777777",
+		"editor.selectionBackground": "#ffff77"
 	},
 	"tokenColors": [
 		{
@@ -17,16 +16,17 @@
 				"comment.block.preprocessor"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#ff7777"
 			}
 		},
 		{
 			"name": "Strings",
 			"scope": [
-				"string.quoted"
+				"string.quoted",
+				"string.template"
 			],
 			"settings": {
-				"foreground": "#8070f8"
+				"foreground": "#7777ff"
 			}
 		},
 	]
